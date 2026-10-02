@@ -36,12 +36,12 @@
 
 ### Quest 头显（ADB 侧载）
 
-1. 电脑安装 [platform-tools](https://developer.android.com/tools/releases/platform-tools)（含 adb）
+1. 电脑安装 [platform-tools](https://developer.android.com/tools/releases/platform-tools)（含 adb）或者Minimal ADB and Fastboot
 2. Quest 开启开发者模式，USB 连接电脑，在头显内允许 USB 调试
 3. 执行：
 
 ```
-adb install WiFiRadar-v4.1.apk
+adb install "你的文件路径"
 ```
 
 4. 安装后在 Quest 的**应用库（App Library）**中找到"WiFi 雷达"，以 2D 窗口方式运行
