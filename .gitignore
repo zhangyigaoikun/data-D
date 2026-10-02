@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+app/build/
+captures/
+
+# IDE
+.idea/
+*.iml
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 历史构建产物：仓库只保留最新版 WiFiRadar-v4.1.apk
+WiFiRadar-*.apk
+!WiFiRadar-v4.1.apk
